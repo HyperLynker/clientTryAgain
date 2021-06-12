@@ -131,7 +131,7 @@ const Room = (props) => {
     }
 
     function endCall() {
-        window.location.replace("https://hyperlynk.herokuapp.com/");
+        window.location.replace("/");
     }
 
     function getUrlFromClipboard() {
@@ -145,10 +145,9 @@ const Room = (props) => {
     return (
         <div>
         <div className={"navbar"}>
-            <button onClick={shareScreen}>Share Screen</button>
-            <button onClick={getUrlFromClipboard} id={"copyButton"} >Copy Link</button>
-            <button onClick={endCall} id={"buttonexit"} >End Call</button>
-            <button onClick={shareScreen}>About this site</button>
+            <button onClick={shareScreen}><img src="https://i.ibb.co/31DkP8W/74576.png" alt="Share Screen" width="20"/></button>
+            <button onClick={getUrlFromClipboard} id={"copyButton"} ><img src="https://i.ibb.co/mRrknNY/copy-link-icon-12.png" alt="Copy Join Link" width="20"/></button>
+            <button onClick={endCall} id={"buttonexit"}>End Call</button>
             <input type={"text"} id={"myInput"} placeholder={"Copied Text"} />
         </div>
         <div className={"main"}>

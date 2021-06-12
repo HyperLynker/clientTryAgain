@@ -1,15 +1,14 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #FCFCFC;
+  background-color: #f9f9f9;
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #ecf0f1;
+  background-color: transparent;
   position: fixed;
   bottom: 0;
-  width: 70%;
   margin-bottom: 20px;
   margin-left: 20px;
   border-radius: 10px;
@@ -22,11 +21,11 @@ body {
   background-color: #bdc3c7;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 15px;
   text-decoration: none;
   font-size: 17px;
   margin: 20px;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .navbar button:hover {
@@ -41,8 +40,8 @@ body {
 #remoteVideo{
     background-repeat: no-repeat;
     background-position: center;
-    width: 1900px;
-    height: 800px;
+    max-width: 1900px;
+    max-height: 800px;
 }
 
 #localVideo{
@@ -50,49 +49,52 @@ body {
     top: 0;
     left: 0;
     margin: 16px;
-    border-radius: 16px;
-    max-width: 20%;
-    max-height: 20%;
-    background-repeat: no-repeat;
-    background-position: center;
+    border-radius: 7px;
+    max-width: 255px;
+    max-height: 195px;
     background-size: cover;
+    background-color: #ecf0f1;
+    padding: 12px;
+    background-color: #ecf0f1;
 }
 
 
 #myInput{
     float: left;
-    display: block;
-    background-color: rgb(214, 214, 214);
+    background-color: transparent;
     border: none;
     border-radius: 6px;
     padding: 14px 16px;
-    text-align: center;
     font-size: 17px;
     margin: 20px;
+    width: 0px;
+    color: transparent;
 }
 
 .container{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
-  width: 900px;
-  padding: 50px;
-  background-color: white;
-  border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 240px;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-top: 50px;
 }
 
 .button2{
   border: none;
-  padding: 20px;
+  padding: 10px;
   color: white;
-  background-color: grey;
-  border-radius: 15px;
+  background-color: #2ecc71;
+  border-radius: 7px;
   transition: 0.3s;
 }
 
 .button2:hover{
   cursor: pointer;
-  background-color: green;
+  background-color: grey;
   transition: 0.3s;
 }

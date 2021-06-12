@@ -10,12 +10,12 @@ const CreateRoom = (props) => {
     return (
         <div className={"container"}>
             <div className={"header"}>
-                <h1>Hyperlynk Rooms</h1>
-                <h2>The fast, capable and privacy-focused way to call your friends</h2>
+                <img src="https://i.ibb.co/nr3vGdN/handshakelogo.png" alt="Handshake Logo" width="200"/>
+                <h2>Fast, Capable, Private</h2>
             </div>
             <div className={"main2"}>
-                <p>Simply press create room to create a room</p>
-                <button onClick={create} className={"button2"}>Create Room</button>
+                <p>Press create room to get started</p>
+                <button onClick={create} className={"button2"}>+ Create Room</button>
             </div>
         </div>
     );
